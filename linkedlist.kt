@@ -2,7 +2,6 @@ fun main() {
     var a = Node(null)
     print("Enter Your Total Data : ")
     var size = readLine()!!.toInt()
-    
     a.linkedlist(size)
 }
 
@@ -23,12 +22,9 @@ class Node {
             if (head == null) {
                 head = new_Node
             } else {
-
                 new_Node.next = head
                 head = new_Node
-                
             }
-            
             x++
         }
         run()
